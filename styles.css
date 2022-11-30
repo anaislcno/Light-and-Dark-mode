@@ -1,0 +1,62 @@
+@font-face {
+    font-family:'Alata';
+    src: url(assets/fonts/alata-regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'LaneNormal';
+    src: url(assets/fonts/LANENAR_.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'LaneRelief';
+    src: url(assets/fonts/LANEPOSH.ttf);
+    font-weight: normal;
+}
+
+:root {
+    --pale: #d3d0ef;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+.light-theme {
+    --bg: var(--pale); 
+    --fontColor: var(--black);
+   
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--pale);
+}
+
+body {
+    font-family: 'LaneNormal';
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+h1, #msg {
+    font-family: 'Alata';
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#msg {
+    font-size: 1.5em;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
