@@ -25,12 +25,27 @@
 .light-theme {
     --bg: var(--pale); 
     --fontColor: var(--black);
-   
+    --btnbg: var(--black);
+    --btnfontColor: var(--pale);
 }
 
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--pale);
+    --btnbg: var(--pale);
+    --btnfontColor: var(--black);
+}
+
+.btn {
+    color: var(--btnfontColor);
+    background-color: var(--btnbg);
+    position:absolute;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    right: 250px;
 }
 
 body {
