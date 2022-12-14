@@ -75,3 +75,23 @@ li {
     list-style: square;
 }
 
+
+@media screen and (min-width: 300px) and  (max-width: 600px) {
+
+    .btn {
+        height: 50px;
+        width: 50px;
+        top: 20px;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+    
+    .btn {
+        height: 50px;
+        width: 50px;
+        top: 20px;
+        right: 150px;
+    }
+} 
